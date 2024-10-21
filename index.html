@@ -34,5 +34,43 @@
     <a href="#"><img src="img/Usuario.svg" alt="meu perfil" class="container__imagem"></a>
 </div>
 </header>
+
+<section class="banner">
+    <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+    <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+    <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+</section>
+
+<section class="carrossel">
+    <h2 class="carrossel__titulo">Novos Lançamentos</h2>
+    <!--Slider main container-->
+    <div class="swiper">
+        <!--Additional required wrapper-->
+    <div class="swiper-wrapper">
+        <!--Slides-->
+        <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Livro sobre apache kafka e spring boot"></div>
+        <div class="swiper-slide"><img src="img/Liderança.svg" alt="Livro sobre liderança em design"></div>
+        <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro sobre javascript assertivo"></div>
+        <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="Livro guia front end"></div>
+        <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro sobre portugol"></div>
+        <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="Livro sobre Acessibilidade"></div>
+
+        <!--If we need navigation buttons-->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>    
+    </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper(".swiper",{
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+            el:".swiper-pagination",
+            type:"bullets",
+        },
+    });
+</script>
 </body>
 </html>
