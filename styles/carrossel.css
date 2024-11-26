@@ -38,19 +38,19 @@
     display: flex;
 }
 
-.descriçao__titulo{
+.descricao__titulo{
     color: var(--laranja);
     font-weight: 700;
 }
 
-.descriçao__titulo-livro{
+.descricao__titulo-livro{
     color: var(--azul);
     font-size: 18px;
     font-weight: 700;
     margin: 0.5em 0;
 }
 
-.descriçao__texto{
+.descricao__texto{
     font-size: 14px;
 }
 
