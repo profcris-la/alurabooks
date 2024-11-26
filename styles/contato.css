@@ -19,3 +19,18 @@
     font-weight: 300;
     margin: 1em 0;
 }
+
+.contato__email{
+    padding: 1em;
+    border: 1px solid var(--azul);
+    border-radius: 24px;
+    width: 90%;
+    color: var(--azul);
+}
+
+.contato__email::placeholder{
+    font-family: var(--fonte-principal);
+    color: var(--azul);
+    background: url("../img/Email.svg") no-repeat 5%;
+    padding-left: 2em;
+}
