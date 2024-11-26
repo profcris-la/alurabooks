@@ -49,12 +49,12 @@
         <!--Additional required wrapper-->
     <div class="swiper-wrapper">
         <!--Slides-->
-        <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Livro sobre apache kafka e spring boot"></div>
-        <div class="swiper-slide"><img src="img/Liderança.svg" alt="Livro sobre liderança em design"></div>
-        <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro sobre javascript assertivo"></div>
-        <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="Livro guia front end"></div>
-        <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro sobre portugol"></div>
-        <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="Livro sobre Acessibilidade"></div>
+        <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Livro sobre apache kafka e spring boot"/></div>
+        <div class="swiper-slide"><img src="img/Liderança.svg" alt="Livro sobre liderança em design"/></div>
+        <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro sobre javascript assertivo"/></div>
+        <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="Livro guia front end"/></div>
+        <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro sobre portugol"/></div>
+        <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="Livro sobre Acessibilidade"/></div>
 
         <!--If we need navigation buttons-->
         <div class="swiper-button-prev"></div>
@@ -91,12 +91,13 @@
 
         <div class="swiper-wrapper">
             <!--Slides-->
-            <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Livro sobre apache kafka e spring boot"></div>
-            <div class="swiper-slide"><img src="img/Liderança.svg" alt="Livro sobre liderança em design"></div>
-            <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro sobre javascript assertivo"></div>
-            <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="Livro guia front end"></div>
-            <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro sobre portugol"></div>
-            <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="Livro sobre Acessibilidade"></div>
+            <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Livro sobre apache kafka e spring boot"/></div>
+            <div class="swiper-slide"><img src="img/Liderança.svg" alt="Livro sobre liderança em design"/></div>
+            <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro sobre javascript assertivo"/></div>
+            <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="Livro guia front end"/></div>
+            <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro sobre portugol"/></div>
+            <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="Livro sobre Acessibilidade"/></div>
+        </div>
 
           <!--If we need navigation buttons-->
         <div class="swiper-button-prev"></div>
@@ -114,8 +115,48 @@
                     <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em front-End.</p>
                 </div>
                 <!--2º coluna-->
-        </div>
+                <img src="img/Escritora.svg" class="descricao__imagem">
+                </div>
+
+    <!-- 2º linha -->
+      <div class="card__botoes">
+        <!-- 1º coluna -->
+        <ul class="botoes">
+          <li class="botoes__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+          <li class="botoes__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+        </ul>
+        <!-- 2º coluna -->
+        <a href="#" class="botoes__ancora">Saiba mais</a>
+      </div>
+    </div>
 </section>
+
+<section class="topicos">
+    <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+    <ul class="topicos__lista">
+      <li class="topicos__item"><a href="#" class="topicos__link">Android</a></li>
+      <li class="topicos__item"><a href="#" class="topicos__link">Marketing Digital</a></li>
+      <li class="topicos__item"><a href="#" class="topicos__link">Agile</a></li>
+      <li class="topicos__item"><a href="#" class="topicos__link">Startups</a></li>
+      <li class="topicos__item"><a href="#" class="topicos__link">HTML & CSS</a></li>
+      <li class="topicos__item"><a href="#" class="topicos__link">Python</a></li>
+      <li class="topicos__item"><a href="#" class="topicos__link">OO</a></li>
+      <li class="topicos__item"><a href="#" class="topicos__link">Java</a></li>
+    </ul>
+  </section>
+
+  <section class="contato">
+    <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+    <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email"/>
+  </section>
+
+  <hr />
+
+  <footer class="rodape">
+    <h2 class="rodape__titulo">Grupo Alura</h2>
+  </footer>
+
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
     const swiper = new Swiper(".swiper",{
